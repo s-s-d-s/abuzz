@@ -1,0 +1,24 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <header class="container">
+        <section class="content">
+            <div class="centered">
+                <div>
+                    <p class="heading">Добро пожаловать на</p>
+                    <p class="heading">Destiny 2 Abzz</p>
+                    <p class="rale">Чтобы присоединиться вам нужно пройти регистрацию</p>
+                    <a href="/steam_login"><img src="{% static 'img/steam.png' %}" class="steam"></a>
+                    <br><br>
+                    <p class="rale"> <b class="abz">Заметка:</b> авторизация полностью безопасна.
+                        <br>Все данные вы должны вводить только на официальных сайтах
+                        <span class="abz">steamcommunity.com</span> и <span class="abz">discord.com</span>
+                        <br>Во время регистрации мы получаем от вас только общедоступную информацию,
+                        а именно <i class="abz">Steam ID</i> и <i class="abz">Discord ID</i>.
+                    </p>
+                    </div>
+                  </div>
+        </section>
+    </header>
+{% endblock %}

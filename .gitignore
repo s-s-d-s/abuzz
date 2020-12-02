@@ -1,0 +1,27 @@
+syntax: glob
+*.log
+*.orig
+*.out
+*.pyc
+*.py~
+*.rej
+*.save
+*.sql
+*.sqlite3
+*.tar.gz
+*backup_[0-9]*
+.idea
+.venv
+*CACHE*
+venv/*
+static/*
+backup/*
+*local_settings*
+media/*
+media_/*
+media__/*
+__pycache__
+temp/*
+tmp/*
+GeoIP/*
+assets/*
